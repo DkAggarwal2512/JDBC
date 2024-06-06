@@ -139,18 +139,25 @@ DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hr","root","");
 		
+		Statement st = conn.createStatement();		
+//		String query ="select * from adit";		
+//		ResultSet rs =st.executeQuery(query);		
+//		while(rs.next()) {
+//			String name = rs.getString("name");
+//			String address = rs.getString("address");
+//			int age = rs.getInt("age");
+//			System.out.println("name :"+name +"address: "+address +"age: "+ age);
+			
+//		}	
+		
+		
+		
+		
+//		---->>> Delete The data From Table
+		String query = "delete from adit where name='Dk'";
 		Statement st = conn.createStatement();
-
-		
-		String query ="select * from adit";
-		
-		ResultSet rs =st.executeQuery(query);
-		
-		while(rs.next()) {
-			String name = rs.getString("name");
-			String address = rs.getString("address");
-			int age = rs.getInt("age");
-			System.out.println("name :"+name +"address: "+address +"age: "+ age);
+		st.executeUpdate(query);
+		System.out.println("Deleted");
 			
 		}
 		
