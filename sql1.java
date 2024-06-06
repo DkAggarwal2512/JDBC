@@ -154,14 +154,6 @@ DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 			
 		}
 		
-		
-		
-		
-		
-
-		
-		
-		
 
 	}
 
