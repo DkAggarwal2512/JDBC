@@ -13,11 +13,10 @@ public class sql1 {
 		// TODO Auto-generated method stub
 		
 		
-//		DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+//		DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 //		Class.forName("com.mysql.cj.jdbc.Driver");	
-//				 DriverManager.getConnection("jdbc:mysql://localhost","root","");
-//				 Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306","root","");
-//		 System.out.println("Connection done");
+//		Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306","root","");
+//		System.out.println("Connection done");
 //		Statement st =conn.createStatement();
 //
 //		 
@@ -37,19 +36,19 @@ public class sql1 {
 		
 // 2nd Method -->>>>
 
-//DriverManager.registerDriver(new com.mysql.jdbc.Driver()); Remove this Driver when We get error
-//Class.forName("com.mysql.cj.jdbc.Driver");
-//String url = "jdbc:mysql://localhost:3306";
-//String user ="root";
-//String pass="";
-//Connection conn=DriverManager.getConnection(url,user,pass);
-//System.out.println("Connected"+conn);
-//Statement st =conn.createStatement();
-//ResultSet rs = st.executeQuery("show databases");
-//System.out.println("databases are:"+rs);
-//while(rs.next()) {
-//	System.out.println(rs.getString(1));
-//}
+// DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver()); 
+// Class.forName("com.mysql.cj.jdbc.Driver");
+// String url = "jdbc:mysql://localhost:3306";
+// String user ="root";
+// String pass="";
+// Connection conn=DriverManager.getConnection(url,user,pass);
+// System.out.println("Connected"+conn);
+// Statement st =conn.createStatement();
+// ResultSet rs = st.executeQuery("show databases");
+// System.out.println("databases are:"+rs);
+// while(rs.next()) {
+// 	System.out.println(rs.getString(1));
+// }
 		
 		
 		
