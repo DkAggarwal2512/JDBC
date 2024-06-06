@@ -89,7 +89,9 @@ public class sql1 {
 		
 		
 		
-////		Create Table
+////		Create Table----->>>>
+
+		
 //		DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 //
 //		
@@ -107,7 +109,7 @@ public class sql1 {
 		
 		
 		
-//		-->>> insert data
+//		-->>> insert Data-->>>
 		
 //DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 //
@@ -130,7 +132,7 @@ public class sql1 {
 		
 		
 		
-//		Read the Data
+//		Read the Data--->>>
 		
 DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 
