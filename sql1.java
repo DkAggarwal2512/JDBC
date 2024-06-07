@@ -158,7 +158,11 @@ DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 		Statement st = conn.createStatement();
 		st.executeUpdate(query);
 		System.out.println("Deleted");
-			
+
+st.close();
+	conn.close();
+
+		
 		}
 		
 
